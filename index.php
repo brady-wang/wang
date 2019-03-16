@@ -1,8 +1,7 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: mac
- * Date: 2018/10/9
- * Time: 22:24
- */
-phpinfo();
+	require 'vendor/autoload.php';
+
+
+$a = new \Brady\tools\Example();
+
+echo $a->index();
