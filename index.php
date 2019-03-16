@@ -1,7 +1,7 @@
 <?php
 	require 'vendor/autoload.php';
 
+use Brady\Tools;
 
-$a = new \Brady\tools\Example();
+$a = new \Brady\tools\Test();
 
-echo $a->index();

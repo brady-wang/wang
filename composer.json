@@ -18,12 +18,12 @@
 
     },
     "require-dev": {
-        "brady/tools": "dev-master"
+        "brady/tools": "1.2"
     },
     "autoload": {
         "psr-4": {
             "App\\": "app/",
-            "brady\\tools\\":"src/"
+            "Brady\\Tools\\":"src/"
         }
     }
 

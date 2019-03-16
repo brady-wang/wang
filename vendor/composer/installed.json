@@ -1,17 +1,17 @@
 [
     {
         "name": "brady/tools",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
+        "version": "1.2",
+        "version_normalized": "1.2.0.0",
         "source": {
             "type": "git",
             "url": "https://gitlab.com/brady.wang/tools.server.com.git",
-            "reference": "5fce47bf2a172e53d8486fbd1511188a8b667471"
+            "reference": "627fade8ecf38c05769050956744a2f127e33e93"
         },
         "dist": {
             "type": "zip",
-            "url": "https://gitlab.com/api/v4/projects/brady%2Ewang%2Ftools%2Eserver%2Ecom/repository/archive.zip?sha=5fce47bf2a172e53d8486fbd1511188a8b667471",
-            "reference": "5fce47bf2a172e53d8486fbd1511188a8b667471",
+            "url": "https://gitlab.com/api/v4/projects/brady%2Ewang%2Ftools%2Eserver%2Ecom/repository/archive.zip?sha=627fade8ecf38c05769050956744a2f127e33e93",
+            "reference": "627fade8ecf38c05769050956744a2f127e33e93",
             "shasum": ""
         },
         "require": {
@@ -20,9 +20,9 @@
         "require-dev": {
             "phpunit/phpunit": "@stable"
         },
-        "time": "2019-03-16T16:15:18+00:00",
+        "time": "2019-03-16T16:33:10+00:00",
         "type": "library",
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "psr-4": {
                 "Brady\\tools\\": "src/"
