@@ -14,7 +14,7 @@
     ],
     "require": {
         "php": ">=7.1.0",
-        "brady/tools": "dev-master"
+        "brady/tools": "1.2"
 
     },
     "require-dev": {
@@ -25,16 +25,7 @@
             "App\\": "app/",
             "brady\\tools\\":"src/"
         }
-    },
-    "responsitories":[
-        {
-            "type":"git",
-            "url":"git@gitlab.com:brady.wang/tools.server.com.git"
-        }
-    ]
-
-
-
+    }
 
 
 
