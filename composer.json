@@ -1,9 +1,17 @@
 {
-    "name": "a/b",
-    "description": "The Laravel Lumen Framework.",
-    "keywords": ["framework", "laravel", "lumen"],
+    "name": "brady/wang",
+    "description": "brady's test file",
+    "keywords": ["brady", "wang"],
     "license": "MIT",
     "type": "project",
+    "authors": [
+        {
+            "name": "brady.wang",
+            "email": "brady.wang@aliyun.com",
+            "homepage": "https://github.com/wys1749",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "php": ">=7.1.0"
     },
