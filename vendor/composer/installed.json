@@ -1,21 +1,26 @@
 [
     {
         "name": "brady/tools",
-        "version": "1.0",
-        "version_normalized": "1.0.0.0",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
         "source": {
             "type": "git",
-            "url": "git@gitlab.com:brady.wang/tools.server.com.git",
-            "reference": "66f82d9c05b325b01736e0ba8fa4e47aa6bed443"
+            "url": "https://gitlab.com/brady.wang/tools.server.com.git",
+            "reference": "5fce47bf2a172e53d8486fbd1511188a8b667471"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://gitlab.com/api/v4/projects/brady%2Ewang%2Ftools%2Eserver%2Ecom/repository/archive.zip?sha=5fce47bf2a172e53d8486fbd1511188a8b667471",
+            "reference": "5fce47bf2a172e53d8486fbd1511188a8b667471",
+            "shasum": ""
         },
         "require": {
-            "monolog/monolog": "1.0.*",
             "php": ">=7.0.0"
         },
         "require-dev": {
             "phpunit/phpunit": "@stable"
         },
-        "time": "2019-03-16T15:06:28+00:00",
+        "time": "2019-03-16T16:15:18+00:00",
         "type": "library",
         "installation-source": "source",
         "autoload": {
@@ -23,6 +28,7 @@
                 "Brady\\tools\\": "src/"
             }
         },
+        "notification-url": "https://packagist.org/downloads/",
         "license": [
             "MIT"
         ],
@@ -37,51 +43,6 @@
         "description": "my common tooles!",
         "keywords": [
             "tools"
-        ]
-    },
-    {
-        "name": "monolog/monolog",
-        "version": "1.0.2",
-        "version_normalized": "1.0.2.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Seldaek/monolog.git",
-            "reference": "b704c49a3051536f67f2d39f13568f74615b9922"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Seldaek/monolog/zipball/b704c49a3051536f67f2d39f13568f74615b9922",
-            "reference": "b704c49a3051536f67f2d39f13568f74615b9922",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.3.0"
-        },
-        "time": "2011-10-24T09:39:02+00:00",
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "Monolog": "src/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Jordi Boggiano",
-                "email": "j.boggiano@seld.be",
-                "homepage": "http://seld.be",
-                "role": "Developer"
-            }
-        ],
-        "description": "Logging for PHP 5.3",
-        "homepage": "http://github.com/Seldaek/monolog",
-        "keywords": [
-            "log",
-            "logging"
         ]
     }
 ]

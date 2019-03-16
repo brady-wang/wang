@@ -36,22 +36,11 @@ class ComposerStaticInit426f5cbf63209e531e3840e9ed1e704a
         ),
     );
 
-    public static $prefixesPsr0 = array (
-        'M' => 
-        array (
-            'Monolog' => 
-            array (
-                0 => __DIR__ . '/..' . '/monolog/monolog/src',
-            ),
-        ),
-    );
-
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit426f5cbf63209e531e3840e9ed1e704a::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit426f5cbf63209e531e3840e9ed1e704a::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit426f5cbf63209e531e3840e9ed1e704a::$prefixesPsr0;
 
         }, null, ClassLoader::class);
     }

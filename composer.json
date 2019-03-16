@@ -8,7 +8,7 @@
         "php": ">=7.1.0"
     },
     "require-dev": {
-        "brady/tools": "1.0"
+        "brady/tools": "dev-master"
     },
     "autoload": {
         "psr-4": {
@@ -16,13 +16,16 @@
             "brady\\tools\\":"src/"
         }
     },
-
-    "repositories":[
+    "responsitories":[
         {
             "type":"git",
             "url":"git@gitlab.com:brady.wang/tools.server.com.git"
         }
     ]
+
+
+
+
 
 
 }
