@@ -2,10 +2,13 @@
 
 namespace Brady\Wang;
 
+use Brady\Tools\Test;
+
 class TestController
 {
 	public function __construct()
 	{
-		echo "wang";
+		new Test();
+		new TestController();
 	}
 }

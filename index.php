@@ -1,6 +1,5 @@
 <?php
 	require 'vendor/autoload.php';
 
-
-	use Brady\Tools;
-	new Tools\Example();
+new \Brady\Tools\Test();
+new \Brady\Wang\TestController();
