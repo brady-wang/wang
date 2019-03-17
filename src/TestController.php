@@ -1,6 +1,6 @@
 <?php
 
-namespace Bardy\Wang;
+namespace Brady\Wang;
 
 class TestController
 {
