@@ -14,11 +14,11 @@
     ],
     "require": {
         "php": ">=7.1.0",
-        "brady/tools": "1.2"
+        "brady/tools": "1.8"
 
     },
     "require-dev": {
-        "brady/tools": "1.2"
+        "brady/tools": "1.8"
     },
     "autoload": {
         "psr-4": {
