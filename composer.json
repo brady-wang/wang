@@ -14,7 +14,8 @@
     ],
     "require": {
         "php": ">=7.1.0",
-        "brady/tools": "2.0"
+        "brady/tools": "2.0",
+        "phpunit/phpunit": "^8.0"
 
     },
     "require-dev": {
