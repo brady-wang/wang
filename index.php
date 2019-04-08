@@ -1,5 +1,15 @@
 <?php
-	require 'vendor/autoload.php';
 
-new \Brady\Tools\Test();
-new \Brady\Wang\TestController();
+namespace Yong;
+
+class Test
+{
+
+	public function get()
+	{
+		echo self::PI;
+	}
+}
+
+
+
